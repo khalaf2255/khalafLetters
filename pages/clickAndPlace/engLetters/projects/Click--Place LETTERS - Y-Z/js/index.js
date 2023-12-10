@@ -49,10 +49,10 @@ $(".answer_box").each(function () {
         } else {
           $(".showAnsBtn").removeClass("disabled");
         }
-        playSound("../assets/audio/correct.mp3");
+        playSound("././assets/audio/correct.mp3");
       } else {
         // CHECK INCORRECT ANSWER --------------------------------------------->
-        playSound("../assets/audio/incorrect.mp3");
+         playSound("././assets/audio/incorrect.mp3");
         $(this).html(ansQuestion);
         $(this).addClass("incorrect");
         setTimeout(() => {
