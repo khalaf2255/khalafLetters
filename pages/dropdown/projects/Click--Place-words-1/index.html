@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;600&family=Fira+Sans+Condensed&family=Marhey:wght@300&family=Noto+Sans+Mandaic&family=Oswald:wght@300;500&family=Playpen+Sans&family=Roboto+Condensed:ital,wght@1,300&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP CSS PROJECT FILE -->
+    <link rel="stylesheet" href="css/libs/bootstrap.css" />
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/libs/scaleable.css" />
+
+    <!-- CSS PROJECT FILE -->
+    <link rel="stylesheet" href="css/template.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/mediaQuery.css" />
+    <title>EXERSICE</title>
+  </head>
+  <body>
+    <!-- EXERSICE BODY -->
+    <main>
+      <!-- SLIDER OF EXERSICE -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="false"
+        data-touch="false"
+      >
+        <h1 class="title">Click on the word then place under the image.</h1>
+        <!-- <ol class="carousel-indicators hide">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              >
+                1
+              </li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                2
+              </li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                3
+              </li>
+            </ol> -->
+
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div index="1" class="carousel-item item active item_1">
+            <div class="questions">
+              <div ques_answer="cat" class="ques">Cat</div>
+              <div ques_answer="dog" class="ques">Dog</div>
+              <div ques_answer="rat" class="ques">Rat</div>
+            </div>
+
+            <!-- OPTIONS -->
+            <div class="options">
+              <div class="box">
+                <img
+                  draggable="false"
+                  src="assets/images/dog.png"
+                  alt=""
+                  srcset=""
+                />
+                <div data_answer="dog" class="answer_box"></div>
+              </div>
+              <div class="box">
+                <img
+                  draggable="false"
+                  src="assets/images/rat.png"
+                  alt=""
+                  srcset=""
+                />
+                <div data_answer="rat" class="answer_box"></div>
+              </div>
+              <div class="box">
+                <img
+                  draggable="false"
+                  src="assets/images/cat.png"
+                  alt=""
+                  srcset=""
+                />
+                <div data_answer="cat" class="answer_box"></div>
+              </div>
+            </div>
+            <!-- OPTIONS -->
+          </div>
+
+          <!-- Slide 2 -->
+          <div index="2" class="carousel-item item">
+            <div class="questions">
+              <div ques_answer="cow" class="ques">Cow</div>
+              <div ques_answer="monkey" class="ques">Monkey</div>
+              <div ques_answer="lion" class="ques">Lion</div>
+            </div>
+
+            <!-- OPTIONS -->
+            <div class="options">
+              <div class="box">
+                <img
+                  draggable="false"
+                  src="assets/images/lion.png"
+                  alt=""
+                  srcset=""
+                />
+                <div data_answer="lion" class="answer_box"></div>
+              </div>
+              <div class="box">
+                <img
+                  draggable="false"
+                  src="assets/images/cow.png"
+                  alt=""
+                  srcset=""
+                />
+                <div data_answer="cow" class="answer_box"></div>
+              </div>
+              <div class="box">
+                <img
+                  draggable="false"
+                  src="assets/images/monkey.png"
+                  alt=""
+                  srcset=""
+                />
+                <div data_answer="monkey" class="answer_box"></div>
+              </div>
+            </div>
+            <!-- OPTIONS -->
+          </div>
+        </div>
+
+        <div class="controls">
+          <button
+            class="carousel-control-prev disabled"
+            type="button"
+            data-target="#carouselExampleIndicators"
+            data-slide="prev"
+          >
+            <img src="assets/images/left-arrow.png" alt="" srcset="" />
+          </button>
+          <div
+            class="reloadAll"
+            data-slide-to="0"
+            data-target="#carouselExampleIndicators"
+          >
+            <img src="assets/images/relad-all.png" alt="" srcset="" />
+          </div>
+          <div class="showAnsBtn">
+            <img src="assets/images/show-answer.png" alt="" srcset="" />
+          </div>
+          <div class="reloadScrren">
+            <img src="assets/images/reload-screen.png" alt="" srcset="" />
+          </div>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-target="#carouselExampleIndicators"
+            data-slide="next"
+          >
+            <img src="assets/images/right-arrow.png" alt="" srcset="" />
+          </button>
+        </div>
+      </div>
+      <!-- END OF EXERSICE -->
+    </main>
+
+    <!-- EXERSICE BODY -->
+
+    <!-- BOOTSTRAP LIBERARY FILES -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lib/bootstrap.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/bootstrap.bundle.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+
+    <!-- JS PROJECT FILES -->
+    <script src="js/lib/jq.js"></script>
+    <script src="js/lib/scaleable.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
