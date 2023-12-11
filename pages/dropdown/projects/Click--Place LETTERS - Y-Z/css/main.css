@@ -100,7 +100,9 @@ main {
   background-color: #800900ad !important;
   color: #fff;
 }
-
+.hide {
+  display: none;
+}
 .disabled {
   pointer-events: none;
   opacity: 0.6 !important;
