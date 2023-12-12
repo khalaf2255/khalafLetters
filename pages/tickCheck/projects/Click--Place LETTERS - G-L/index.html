@@ -6,8 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,8 +25,9 @@
     <link rel="stylesheet" href="css/template.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/mediaQuery.css" />
-    <title>EXERSICE G-I</title>
+    <title>EXERSICE</title>
   </head>
+
   <body>
     <!-- EXERSICE BODY -->
     <main>
@@ -39,116 +39,51 @@
         data-interval="false"
         data-touch="false"
       >
-        <h1 class="title">Click on the word then place under the image.</h1>
-        <!-- <ol class="carousel-indicators hide">
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="0"
-                class="active"
-              >
-                1
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                2
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                3
-              </li>
-            </ol> -->
-
+        <h1 class="title">Click on the correct image.</h1> 
         <div class="carousel-inner">
-          <!-- Slide 1 -->
-          <div index="1" class="carousel-item item active item_1">
+          <!-- Slide 1 -------------------------------------------------------->
+          <div index="1" class="carousel-item item item_1 active">
+            <!-- START QUESTIONS -------------------------------------------------------->
             <div class="questions">
-              <div ques_answer="خ" class="ques">خ</div>
-              <div ques_answer="د" class="ques">د</div>
-              <div ques_answer="ذ" class="ques">ذ</div>
-            </div>
-
-            <!-- OPTIONS -->
-            <div class="options">
-              <div class="box">
-                <!-- <img
-                  draggable="false"
-                  src="assets/images/h.png"
-                  alt=""
-                  srcset=""
-                /> -->
-                <div class="letter">ذ</div>
-                <div data_answer="ذ" class="answer_box"></div>
-              </div>
-              <div class="box">
-                <!-- <img
-                  draggable="false"
-                  src="assets/images/i.png"
-                  alt=""
-                  srcset=""
-                /> -->
-                <div class="letter">د</div>
-
-                <div data_answer="د" class="answer_box"></div>
-              </div>
-              <div class="box">
-                <!-- <img
-                  draggable="false"
-                  src="assets/images/g.png"
-                  alt=""
-                  srcset=""
-                /> -->
-                <div class="letter">خ</div>
-
-                <div data_answer="خ" class="answer_box"></div>
+              <div class="question">
+                <section>
+                  <div class="main_word">Cow</div>
+                  <div class="chooises">
+                    <div class="box">
+                      <img src="assets/images/ex-images/rat.jpg" alt="" />
+                      <div data_answer="incorrect" class="answer_box"></div>
+                    </div>
+                    <div class="box">
+                      <img src="assets/images/ex-images/cow.jpg" alt="" />
+                      <div data_answer="correct" class="answer_box"></div>
+                    </div> 
+                  </div>
+                </section>
               </div>
             </div>
-            <!-- OPTIONS -->
+            <!-- END QUESTIONS -->
           </div>
-
-          <!-- Slide 2 -->
-          <div index="2" class="carousel-item item">
+          <!-- Slide 2  -------------------------------------------------------->
+          <div index="2" class="carousel-item item item_2">
+            <!-- START QUESTIONS -------------------------------------------------------->
             <div class="questions">
-              <div ques_answer="ر" class="ques">ر</div>
-              <div ques_answer="ز" class="ques">ز</div>
-              <div ques_answer="س" class="ques">س</div>
+              <div class="question">
+                <section>
+                  <div class="main_word">Rat</div>
+                  <div class="chooises">
+                    <div class="box">
+                      <img src="assets/images/ex-images/rat.jpg" alt="" />
+                      <div data_answer="correct" class="answer_box"></div>
+                    </div>
+                    <div class="box">
+                      <img src="assets/images/ex-images/cow.jpg" alt="" />
+                      <div data_answer="incorrect" class="answer_box"></div>
+                    </div> 
+                  </div>
+                </section>
+              </div>
             </div>
-
-            <!-- OPTIONS -->
-            <div class="options">
-              <div class="box">
-                <!-- <img
-                  draggable="false"
-                  src="assets/images/l.png"
-                  alt=""
-                  srcset=""
-                /> -->
-                <div class="letter">س</div>
-
-                <div data_answer="س" class="answer_box"></div>
-              </div>
-              <div class="box">
-                <!-- <img
-                  draggable="false"
-                  src="assets/images/j.png"
-                  alt=""
-                  srcset=""
-                /> -->
-                <div class="letter">ز</div>
-
-                <div data_answer="ز" class="answer_box"></div>
-              </div>
-              <div class="box">
-                <!-- <img
-                  draggable="false"
-                  src="assets/images/k.png"
-                  alt=""
-                  srcset=""
-                /> -->
-                <div class="letter">ر</div>
-
-                <div data_answer="ر" class="answer_box"></div>
-              </div>
-            
-            </div>
-            <!-- OPTIONS -->
+            <!-- END QUESTIONS -->
           </div>
         </div>
 
@@ -159,20 +94,20 @@
             data-target="#carouselExampleIndicators"
             data-slide="prev"
           >
-            <img src="assets/images/left-arrow.png" alt="" srcset="" />
+            <img src="assets/images/left-arrow.png" />
           </button>
           <div
             class="reloadAll"
             data-slide-to="0"
             data-target="#carouselExampleIndicators"
           >
-            <img src="assets/images/relad-all.png" alt="" srcset="" />
+            <img src="assets/images/relad-all.png" />
           </div>
           <div class="showAnsBtn">
-            <img src="assets/images/show-answer.png" alt="" srcset="" />
+            <img src="assets/images/show-answer.png" />
           </div>
           <div class="reloadScrren">
-            <img src="assets/images/reload-screen.png" alt="" srcset="" />
+            <img src="assets/images/reload-screen.png" />
           </div>
 
           <button
@@ -181,7 +116,7 @@
             data-target="#carouselExampleIndicators"
             data-slide="next"
           >
-            <img src="assets/images/right-arrow.png" alt="" srcset="" />
+            <img src="assets/images/right-arrow.png" />
           </button>
         </div>
       </div>
